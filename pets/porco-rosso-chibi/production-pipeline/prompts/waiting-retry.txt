@@ -1,0 +1,2 @@
+Board: ONE exact 3-column × 2-row animation board, 1536×1024 total, no gutters. Draw six distinct full-body poses of the same pig pilot making a small, calm clothing-adjustment gesture.
+Pose order: 1 both hands behind the back; 2 one elbow moves forward; 3 one hand arrives at the front of the jacket; 4 one small adjustment near the red neckwear; 5 hand begins to lower; 6 hand almost returns behind the back. Keep all other features stable: full body, hat, black sunglasses, cream suit, shoes, centered scale, flat green background, no objects and no effects.

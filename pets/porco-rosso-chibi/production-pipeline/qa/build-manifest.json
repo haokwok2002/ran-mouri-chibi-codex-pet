@@ -1,0 +1,557 @@
+{
+  "spriteVersionNumber": 1,
+  "atlas": "spritesheet.webp",
+  "size": [
+    1536,
+    1872
+  ],
+  "states": [
+    {
+      "name": "idle",
+      "frames": 7
+    },
+    {
+      "name": "running-right",
+      "frames": 8
+    },
+    {
+      "name": "running-left",
+      "frames": 8
+    },
+    {
+      "name": "waving",
+      "frames": 4
+    },
+    {
+      "name": "jumping",
+      "frames": 5
+    },
+    {
+      "name": "failed",
+      "frames": 8
+    },
+    {
+      "name": "waiting",
+      "frames": 6
+    },
+    {
+      "name": "running",
+      "frames": 6
+    },
+    {
+      "name": "review",
+      "frames": 6
+    }
+  ],
+  "alignment": {
+    "idle": {
+      "reference_height": 467.0,
+      "frames": [
+        {
+          "frame": 1,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 107,
+          "height": 183
+        },
+        {
+          "frame": 2,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 106,
+          "height": 183
+        },
+        {
+          "frame": 3,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 107,
+          "height": 182
+        },
+        {
+          "frame": 4,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 106,
+          "height": 182
+        },
+        {
+          "frame": 5,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 106,
+          "height": 182
+        },
+        {
+          "frame": 6,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 106,
+          "height": 183
+        },
+        {
+          "frame": 7,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 106,
+          "height": 183
+        }
+      ]
+    },
+    "running-right": {
+      "reference_height": 405.5,
+      "frames": [
+        {
+          "frame": 1,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 121,
+          "height": 183
+        },
+        {
+          "frame": 2,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 125,
+          "height": 183
+        },
+        {
+          "frame": 3,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 116,
+          "height": 183
+        },
+        {
+          "frame": 4,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 123,
+          "height": 183
+        },
+        {
+          "frame": 5,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 122,
+          "height": 183
+        },
+        {
+          "frame": 6,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 120,
+          "height": 183
+        },
+        {
+          "frame": 7,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 112,
+          "height": 183
+        },
+        {
+          "frame": 8,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 128,
+          "height": 183
+        }
+      ]
+    },
+    "running-left": {
+      "reference_height": 405.5,
+      "frames": [
+        {
+          "frame": 1,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 121,
+          "height": 183
+        },
+        {
+          "frame": 2,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 125,
+          "height": 183
+        },
+        {
+          "frame": 3,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 116,
+          "height": 183
+        },
+        {
+          "frame": 4,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 123,
+          "height": 183
+        },
+        {
+          "frame": 5,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 122,
+          "height": 183
+        },
+        {
+          "frame": 6,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 120,
+          "height": 183
+        },
+        {
+          "frame": 7,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 112,
+          "height": 183
+        },
+        {
+          "frame": 8,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 128,
+          "height": 183
+        }
+      ]
+    },
+    "waving": {
+      "reference_height": 470.0,
+      "frames": [
+        {
+          "frame": 1,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 101,
+          "height": 182
+        },
+        {
+          "frame": 2,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 105,
+          "height": 182
+        },
+        {
+          "frame": 3,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 103,
+          "height": 182
+        },
+        {
+          "frame": 4,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 101,
+          "height": 182
+        }
+      ]
+    },
+    "jumping": {
+      "reference_height": 361.0,
+      "frames": [
+        {
+          "frame": 1,
+          "body_anchor_x": 96.0,
+          "top": 39,
+          "bottom": 193,
+          "width": 114,
+          "height": 154
+        },
+        {
+          "frame": 2,
+          "body_anchor_x": 96.0,
+          "top": 23,
+          "bottom": 187,
+          "width": 118,
+          "height": 164
+        },
+        {
+          "frame": 3,
+          "body_anchor_x": 96.0,
+          "top": 4,
+          "bottom": 178,
+          "width": 118,
+          "height": 174
+        },
+        {
+          "frame": 4,
+          "body_anchor_x": 96.0,
+          "top": 27,
+          "bottom": 186,
+          "width": 112,
+          "height": 159
+        },
+        {
+          "frame": 5,
+          "body_anchor_x": 96.0,
+          "top": 21,
+          "bottom": 193,
+          "width": 104,
+          "height": 172
+        }
+      ]
+    },
+    "failed": {
+      "reference_height": 435.0,
+      "frames": [
+        {
+          "frame": 1,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 105,
+          "height": 182
+        },
+        {
+          "frame": 2,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 104,
+          "height": 182
+        },
+        {
+          "frame": 3,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 108,
+          "height": 183
+        },
+        {
+          "frame": 4,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 110,
+          "height": 183
+        },
+        {
+          "frame": 5,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 107,
+          "height": 183
+        },
+        {
+          "frame": 6,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 104,
+          "height": 183
+        },
+        {
+          "frame": 7,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 104,
+          "height": 183
+        },
+        {
+          "frame": 8,
+          "body_anchor_x": 96.0,
+          "top": 10,
+          "bottom": 193,
+          "width": 104,
+          "height": 183
+        }
+      ]
+    },
+    "waiting": {
+      "reference_height": 446.0,
+      "frames": [
+        {
+          "frame": 1,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 103,
+          "height": 182
+        },
+        {
+          "frame": 2,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 106,
+          "height": 182
+        },
+        {
+          "frame": 3,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 104,
+          "height": 182
+        },
+        {
+          "frame": 4,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 101,
+          "height": 182
+        },
+        {
+          "frame": 5,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 103,
+          "height": 182
+        },
+        {
+          "frame": 6,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 103,
+          "height": 182
+        }
+      ]
+    },
+    "running": {
+      "reference_height": 445.5,
+      "frames": [
+        {
+          "frame": 1,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 100,
+          "height": 182
+        },
+        {
+          "frame": 2,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 97,
+          "height": 182
+        },
+        {
+          "frame": 3,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 101,
+          "height": 182
+        },
+        {
+          "frame": 4,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 97,
+          "height": 182
+        },
+        {
+          "frame": 5,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 99,
+          "height": 182
+        },
+        {
+          "frame": 6,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 99,
+          "height": 182
+        }
+      ]
+    },
+    "review": {
+      "reference_height": 446.0,
+      "frames": [
+        {
+          "frame": 1,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 97,
+          "height": 182
+        },
+        {
+          "frame": 2,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 96,
+          "height": 182
+        },
+        {
+          "frame": 3,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 95,
+          "height": 182
+        },
+        {
+          "frame": 4,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 94,
+          "height": 182
+        },
+        {
+          "frame": 5,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 95,
+          "height": 182
+        },
+        {
+          "frame": 6,
+          "body_anchor_x": 96.0,
+          "top": 11,
+          "bottom": 193,
+          "width": 94,
+          "height": 182
+        }
+      ]
+    }
+  }
+}

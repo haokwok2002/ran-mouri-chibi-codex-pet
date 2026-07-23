@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "reviewed_by": "parent",
+  "failure_class": "visual semantics",
+  "failed_direction": "000",
+  "reason": "第一格在正常宠物尺寸下更像中性正脸；向上眼神与轻微抬头不够明确，不能满足 cardinal up 的硬门槛。",
+  "repair": "整行重新合成；保留已通过的身份、比例、基线和右向连续性，同时加强 000 的上视眼白、瞳孔位置、眼睑与抬头关系。"
+}

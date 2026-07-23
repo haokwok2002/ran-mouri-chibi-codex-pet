@@ -1,0 +1,2 @@
+Board: ONE exact 3-column × 2-row board, 1536×1024 total, no gutters. Panels 1–5 form a small celebration jump; panel 6 repeats panel 1.
+Action: 1 compact crouch, fists near shoulders; 2 push-off; 3 airborne apex with small victory fists, skirt and hair lifting; 4 descent; 5 soft landing; 6 repeat frame 1. Horizontal body center, face size, camera, and scale remain locked. Vertical motion follows one smooth arc and comes from a real redrawn pose.

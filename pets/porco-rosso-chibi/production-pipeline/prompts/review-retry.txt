@@ -1,0 +1,2 @@
+Board: ONE exact 3-column × 2-row animation board, 1536×1024 total, no gutters. Draw six distinct full-body poses of the same pig pilot making a small deliberate checking gesture.
+Pose order: 1 upright neutral; 2 head turns slightly to screen right; 3 one hand rises to the upper jacket; 4 hold the calm checking pose; 5 hand lowers as head returns; 6 near panel 1. Keep the complete character, hat, black sunglasses, cream suit, shoes, stable centered scale, flat green background, no devices, no objects, no symbols, and no effects.

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "source": "frames/running-right",
+  "output": "frames/running-left",
+  "transform": "framewise-horizontal-mirror-preserving-order",
+  "frames": 8,
+  "pixel_exact": true,
+  "visual_qa": "pass",
+  "note": "Each finalized left-running frame is the exact horizontal mirror of the corresponding approved right-running frame. Scale, centering, timing, and frame order are preserved."
+}

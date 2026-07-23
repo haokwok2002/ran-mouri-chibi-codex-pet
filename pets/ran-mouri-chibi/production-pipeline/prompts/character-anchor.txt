@@ -1,0 +1,11 @@
+Use case: identity-preserve
+Asset type: master character reference for a small Codex desktop pet
+Input images: Image 1 is the absolute authority for identity, facial impression, eye design, hairstyle, outfit, and palette.
+Primary request: Redesign the same unmistakably recognizable young woman as a compact premium chibi desktop-pet character. She stands front-facing in a relaxed neutral pose with both arms at her sides and a gentle familiar smile. She must be recognizable as the same person at first glance, not a generic anime girl.
+Identity anchors: preserve the original oval facial impression, large gray-brown eyes with the same spacing and calm gaze, tiny understated nose and mouth, warm-brown fluffy medium-long hair, the very distinctive lifted forelock at the crown, loose curled side strands framing both cheeks, pale blue oversized zip jacket, ivory high-neck shirt, navy watercolor pleated skirt, white socks, and white sneakers.
+Proportions: polished 3.5-head-tall chibi proportions; head enlarged moderately for facial readability, short compact limbs, but not babyish and not a two-head mascot. Keep the face elegant and slightly mature.
+Style/medium: crisp Japanese anime game sprite with subtle watercolor fills; clean medium-weight dark-brown outer contour; simplified interior details; large high-contrast eyes; flat readable color masses; sharp edges designed to stay clear when reduced to 140–155 pixels tall. No thin scratchy watercolor lines.
+Composition/framing: full body from highest loose hair tip through shoe soles; centered; character occupies about 72 percent of canvas height and 48 percent of canvas width; generous transparent-safe padding; both hands and shoes fully visible.
+Scene/backdrop: perfectly flat uniform solid #00ff00 chroma-key background.
+Constraints: one character only; exact outfit colors; correct hands; symmetric neutral stance; strong compact silhouette. No cast shadow, contact shadow, floor, props, text, logo, watermark, or signature. Background has no texture, gradient, halo, glow, or lighting variation. Do not use green inside the character.
+Avoid: generic chibi face, two-head-tall baby mascot, photorealism, 3D, thick black outline, muddy watercolor, faint low-contrast lines, tiny face, costume changes, hair color changes, short hair, extra accessories, duplicate limbs, cropped hair or shoes.

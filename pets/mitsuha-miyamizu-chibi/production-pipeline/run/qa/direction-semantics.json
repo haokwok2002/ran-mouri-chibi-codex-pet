@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "reviewed_by": "independent final visual QA worker",
+  "evidence": "qa/look-directions.png",
+  "directions": [
+    {"direction":"000","expected":"up","observed":"up","verdict":"pass","horizontal":"not required","vertical":"upturned eyes and head","reason":"Up cardinal is clear."},
+    {"direction":"022.5","expected":"up-right","observed":"up-right","verdict":"pass","horizontal":"face turns screen-right","vertical":"eyes and head remain raised","reason":"Continuous up-right step."},
+    {"direction":"045","expected":"up-right","observed":"up-right","verdict":"pass","horizontal":"rightward face turn is clear","vertical":"upward gaze remains visible","reason":"Reads in the up-right quadrant."},
+    {"direction":"067.5","expected":"up-right","observed":"up-right","verdict":"pass","horizontal":"approaches the screen-right profile","vertical":"upward cue remains visible","reason":"Connects naturally to 090."},
+    {"direction":"090","expected":"screen-right","observed":"screen-right","verdict":"pass","horizontal":"clear screen-right profile","vertical":"not required","reason":"Right cardinal is unmistakable."},
+    {"direction":"112.5","expected":"down-right","observed":"down-right","verdict":"pass","horizontal":"rightward profile remains clear","vertical":"head and gaze begin to lower","reason":"Reads in the down-right quadrant."},
+    {"direction":"135","expected":"down-right","observed":"down-right","verdict":"pass","horizontal":"rightward face remains visible","vertical":"downward gaze is clear","reason":"Continuous down-right step."},
+    {"direction":"157.5","expected":"down-right","observed":"down-right","verdict":"pass","horizontal":"rightward cue remains visible","vertical":"head and eyes are lowered","reason":"Connects naturally to 180."},
+    {"direction":"180","expected":"down","observed":"down","verdict":"pass","horizontal":"not required","vertical":"clear down-facing pose","reason":"Down cardinal is unmistakable."},
+    {"direction":"202.5","expected":"down-left","observed":"down-left","verdict":"pass","horizontal":"face begins turning screen-left","vertical":"downward pose remains clear","reason":"Continuous down-left step."},
+    {"direction":"225","expected":"down-left","observed":"down-left","verdict":"warning","horizontal":"leftward turn is clear","vertical":"downward cue is subtle","reason":"Blind vertical cue is weak, but the labeled loop stays in the correct quadrant."},
+    {"direction":"247.5","expected":"down-left","observed":"down-left","verdict":"warning","horizontal":"approaches the screen-left profile","vertical":"downward cue is subtle","reason":"Blind vertical cue is weak, but the labeled loop connects naturally to 270."},
+    {"direction":"270","expected":"screen-left","observed":"screen-left","verdict":"pass","horizontal":"clear screen-left profile","vertical":"not required","reason":"Left cardinal is unmistakable."},
+    {"direction":"292.5","expected":"up-left","observed":"up-left","verdict":"warning","horizontal":"leftward profile remains clear","vertical":"upward cue is subtle","reason":"Blind vertical cue is weak, but the labeled loop remains coherent."},
+    {"direction":"315","expected":"up-left","observed":"up-left","verdict":"warning","horizontal":"leftward face remains visible","vertical":"upward cue is subtle","reason":"Blind vertical cue is weak, but the labeled loop approaches 337.5 without reversal."},
+    {"direction":"337.5","expected":"up-left","observed":"up-left","verdict":"pass","horizontal":"small screen-left cue remains visible","vertical":"eyes and head are raised","reason":"Closes naturally back to 000."}
+  ],
+  "continuity_review": {
+    "result": "accepted warnings",
+    "reason": "The 000 to 022.5 center shift and 337.5 to 000 pixel-difference warnings show no visible snap, scale pop, identity change, or direction reversal."
+  }
+}

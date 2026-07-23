@@ -1,0 +1,165 @@
+{
+  "format": "Codex Pet V2",
+  "cell": [
+    192,
+    208
+  ],
+  "columns": 8,
+  "rows": 11,
+  "atlas": [
+    1536,
+    2288
+  ],
+  "states": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frames": 7
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frames": 8
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frames": 8
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frames": 4
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frames": 5
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frames": 8
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frames": 6
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frames": 6
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frames": 6
+    },
+    {
+      "row": 9,
+      "state": "look-000-to-157.5",
+      "frames": 8
+    },
+    {
+      "row": 10,
+      "state": "look-180-to-337.5",
+      "frames": 8
+    }
+  ],
+  "animation_policy": "Every used cell comes from a separately drawn chibi frame. One shared crop and scale is applied per action. A small horizontal anatomical-anchor registration corrects model placement drift; no rotation, zoom, vertical bob, or transform-generated animation is used.",
+  "render_policy": "Compact 3.5-head-tall chibi, maximum 168x178 pixels inside each 192x208 cell, with subtle post-downscale edge sharpening for small-size clarity.",
+  "runtime_anchor": {
+    "body_center_x": 96,
+    "ground_y": 193,
+    "policy": "Every state start frame shares one pelvis center and shoe baseline. Grounded loops also remove source-board vertical placement drift with one registration pass."
+  },
+  "runtime_timing_ms": {
+    "idle": [
+      1680,
+      660,
+      660,
+      840,
+      840,
+      1920
+    ],
+    "running-right": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "running-left": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "waving": [
+      140,
+      140,
+      140,
+      280
+    ],
+    "jumping": [
+      140,
+      140,
+      140,
+      140,
+      280
+    ],
+    "failed": [
+      140,
+      140,
+      140,
+      140,
+      140,
+      140,
+      140,
+      240
+    ],
+    "waiting": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      260
+    ],
+    "running": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      220
+    ],
+    "review": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      280
+    ]
+  },
+  "look_preview_cadence_ms": 130,
+  "runtime_timing_policy": "State timings and frame counts are fixed by Codex desktop for sprite V2 and cannot be overridden by pet.json. State preview GIFs reproduce those fixed timings; look rows use a QA-only sweep cadence because runtime selects them directionally rather than animating them as a state.",
+  "idle_blink_policy": {
+    "runtime_closed_eye_slots": [
+      1
+    ],
+    "closed_eye_duration_ms": 660,
+    "previous_visible_blink_envelope_ms": 3000,
+    "speedup": 4.55,
+    "policy": "The fully closed drawing occupies only Codex's shortest idle slot. Every following runtime frame restores approved open eyes while retaining independently drawn hair and clothing micro-motion."
+  }
+}

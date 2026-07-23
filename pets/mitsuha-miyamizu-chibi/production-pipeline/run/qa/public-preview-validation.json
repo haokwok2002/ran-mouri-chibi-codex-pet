@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "source": "ready-to-use/spritesheet.webp",
+  "preview": "ready-to-use/preview.gif",
+  "sheet": "ready-to-use/preview-sheet.png",
+  "standard_actions": 9,
+  "gif_frames": 57,
+  "individual_action_gifs": 9,
+  "all_gifs_green_dominant_pixels": 0,
+  "background": "opaque warm white",
+  "green_dominant_pixels": 0,
+  "transparent_rgb_residue_pixels": 0,
+  "tiny_detached_red_components": 0,
+  "alignment": {
+    "horizontal_anchor_tolerance_pixels": 0.5,
+    "grounded_baseline_y": 202,
+    "preserved_motion": ["jumping vertical travel"],
+    "method": "translation only; no per-frame scaling"
+  }
+}

@@ -1,0 +1,2 @@
+Board: ONE exact 3-column × 2-row board, 1536×1024 total, no gutters. Six separately drawn frames form a patient hair-touch loop.
+Action: 1 right hand starts leaving her side; 2 reaches shoulder height; 3 fingertips approach hair beside neck; 4 fingertips lightly lift one small side lock; 5 hand releases and lowers to shoulder; 6 hand almost returns to side. Left arm and torso remain fixed. Animate only right arm, sleeve, hand, nearby hair lock, and tiny eyelid reaction. Each hand height advances gradually.

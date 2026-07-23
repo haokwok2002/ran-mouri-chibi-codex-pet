@@ -1,0 +1,2 @@
+Board: ONE exact 4-column × 2-row board, 2048×1024 total, no gutters. Panels 1–7 form a subtle idle loop; panel 8 repeats panel 1 as loop reference.
+Action: body, arms, hands, pelvis, shoes, and head outline stay fixed. 1 eyes open; 2 eyelids lower slightly; 3 half blink; 4 complete gentle blink; 5 half open; 6 nearly open; 7 fully open like frame 1; 8 repeat frame 1. Only eyelids, pupils, mouth curve, two hair tips, and tiny jacket folds may change.

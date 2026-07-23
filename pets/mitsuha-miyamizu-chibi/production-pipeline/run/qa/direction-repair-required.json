@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "failure_class": "major cardinal semantic reversal",
+  "evidence": "qa/direction-blind-validation.json",
+  "repaired_cardinal": "090",
+  "failed_cardinal": "270",
+  "reason": "第二轮盲测确认 090 已通过，但 270 有两位独立检查者判为 ambiguous：侧脸过度被后侧头发遮挡，正常宠物尺寸下不像明确的 screen-left。",
+  "repair": "保留通过的第一行和 090；重新完整合成第二行，要求 270 为可见近眼、鼻尖朝画布左边缘的清楚左向侧脸，禁止以后脑勺或遮挡脸部代替。"
+}

@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "reviewed_by": "parent",
+  "source": "decoded/look-row-9.png",
+  "directions": [
+    {"direction":"000","expected":"up","verdict":"pass","reason":"瞳孔明显位于眼睛上部并露出下方眼白，头部轻抬。"},
+    {"direction":"022.5","expected":"up-right","verdict":"pass","reason":"上视保持，脸部和眼神开始向屏幕右侧连续转动。"},
+    {"direction":"045","expected":"up-right","verdict":"pass","reason":"右向头部转动增加，上视仍可读。"},
+    {"direction":"067.5","expected":"up-right","verdict":"pass","reason":"右向接近 cardinal，姿势持续单向推进。"},
+    {"direction":"090","expected":"screen-right","verdict":"pass","reason":"脸、鼻尖和瞳孔清楚朝观者右侧。"},
+    {"direction":"112.5","expected":"down-right","verdict":"pass","reason":"保持右向并开始低头、眼神下移。"},
+    {"direction":"135","expected":"down-right","verdict":"pass","reason":"右侧脸部仍主导，低头关系更明显。"},
+    {"direction":"157.5","expected":"down-right","verdict":"pass","reason":"在不换比例或换发绳的情况下自然接近 180 下视。"}
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "strip": "pets/mitsuha-miyamizu-chibi/production-pipeline/run/decoded/look-cardinals.png",
+  "directions": [
+    "000",
+    "090",
+    "180",
+    "270"
+  ],
+  "errors": [],
+  "anchors": [
+    {
+      "direction": "000",
+      "source_box": [
+        0,
+        0,
+        384,
+        1024
+      ],
+      "used_pixels": 114123,
+      "edge_pixels": 0,
+      "output": "pets/mitsuha-miyamizu-chibi/production-pipeline/run/decoded/look-anchors/000.png"
+    },
+    {
+      "direction": "090",
+      "source_box": [
+        384,
+        0,
+        768,
+        1024
+      ],
+      "used_pixels": 113413,
+      "edge_pixels": 12,
+      "output": "pets/mitsuha-miyamizu-chibi/production-pipeline/run/decoded/look-anchors/090.png"
+    },
+    {
+      "direction": "180",
+      "source_box": [
+        768,
+        0,
+        1152,
+        1024
+      ],
+      "used_pixels": 112173,
+      "edge_pixels": 15,
+      "output": "pets/mitsuha-miyamizu-chibi/production-pipeline/run/decoded/look-anchors/180.png"
+    },
+    {
+      "direction": "270",
+      "source_box": [
+        1152,
+        0,
+        1536,
+        1024
+      ],
+      "used_pixels": 109654,
+      "edge_pixels": 0,
+      "output": "pets/mitsuha-miyamizu-chibi/production-pipeline/run/decoded/look-anchors/270.png"
+    }
+  ]
+}

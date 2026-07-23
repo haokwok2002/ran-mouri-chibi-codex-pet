@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "input": "porco-rosso-chibi/production-pipeline/references/porco-rosso-reference-green.png",
+  "output": "porco-rosso-chibi/production-pipeline/references/porco-rosso-reference-green.png",
+  "canvas": {
+    "width": 1024,
+    "height": 1536
+  },
+  "background_rgb": [
+    0,
+    255,
+    0
+  ],
+  "normalized_background_pixels": 1055353,
+  "method": "api-reference-image-plus-border-connected-chroma-normalization"
+}

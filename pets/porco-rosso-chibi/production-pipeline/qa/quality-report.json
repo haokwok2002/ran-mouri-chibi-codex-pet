@@ -1,0 +1,73 @@
+{
+  "ok": true,
+  "atlas": "spritesheet.webp",
+  "mean_edge_acuity": 84.41,
+  "max_subject_width": 124,
+  "max_subject_height": 179,
+  "errors": [],
+  "states": [
+    {
+      "state": "idle",
+      "frames": 7,
+      "unique_frames": 7,
+      "adjacent_mae_min": 1.79,
+      "adjacent_mae_max": 10.51
+    },
+    {
+      "state": "running-right",
+      "frames": 8,
+      "unique_frames": 8,
+      "adjacent_mae_min": 18.36,
+      "adjacent_mae_max": 30.3
+    },
+    {
+      "state": "running-left",
+      "frames": 8,
+      "unique_frames": 8,
+      "adjacent_mae_min": 18.36,
+      "adjacent_mae_max": 30.3
+    },
+    {
+      "state": "waving",
+      "frames": 4,
+      "unique_frames": 4,
+      "adjacent_mae_min": 0.5,
+      "adjacent_mae_max": 4.4
+    },
+    {
+      "state": "jumping",
+      "frames": 5,
+      "unique_frames": 5,
+      "adjacent_mae_min": 21.02,
+      "adjacent_mae_max": 33.49
+    },
+    {
+      "state": "failed",
+      "frames": 8,
+      "unique_frames": 8,
+      "adjacent_mae_min": 1.98,
+      "adjacent_mae_max": 15.58
+    },
+    {
+      "state": "waiting",
+      "frames": 6,
+      "unique_frames": 6,
+      "adjacent_mae_min": 1.73,
+      "adjacent_mae_max": 9.31
+    },
+    {
+      "state": "running",
+      "frames": 6,
+      "unique_frames": 6,
+      "adjacent_mae_min": 4.89,
+      "adjacent_mae_max": 9.6
+    },
+    {
+      "state": "review",
+      "frames": 6,
+      "unique_frames": 6,
+      "adjacent_mae_min": 4.43,
+      "adjacent_mae_max": 11.99
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Create a single full-body chibi pig aviator character for a Codex Pet production reference.
+
+Use the supplied image only as identity inspiration: preserve the compact upright pig silhouette, pale cream wide-brim flying hat, black aviator sunglasses, cream double-breasted flight suit, white trousers, brown shoes, and small coral-red tie. Redraw the character cleanly as an original, polished warm hand-drawn animation-style asset; remove any watermark, signature, text, logo, framing, scene, and cast shadow from the source.
+
+Pose the character straight forward in a relaxed neutral stance, hands naturally held behind the back, entire head-to-toe body visible, centered, with generous empty padding on every side. Use crisp dark outlines, soft warm cream and brown tones, simple readable facial features, and stable proportions suitable for later sprite animation. Do not include an airplane, clouds, smoke, scenery, floor plane, detached props, effects, motion lines, or extra characters.
+
+The entire background must be one perfectly flat uniform bright chroma green #00FF00. No gradient, texture, vignette, lighting variation, shadow, reflection, glow, checkerboard, border, grid, text, or watermark. Do not use green on the character.

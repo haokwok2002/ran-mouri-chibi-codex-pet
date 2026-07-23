@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "reviewed_by": "parent",
+  "directions": [
+    {
+      "direction": "000",
+      "expected": "up",
+      "verdict": "pass",
+      "reason": "瞳孔和眉线朝上、下巴轻微上扬，脸保持正面。"
+    },
+    {
+      "direction": "090",
+      "expected": "screen-right",
+      "verdict": "pass",
+      "reason": "鼻尖、瞳孔与脸部朝观者右侧转动，侧马尾和编绳自然跟随。"
+    },
+    {
+      "direction": "180",
+      "expected": "down",
+      "verdict": "pass",
+      "reason": "眼睑下压、瞳孔向下、头部轻低，脸部仍完整可辨。"
+    },
+    {
+      "direction": "270",
+      "expected": "screen-left",
+      "verdict": "pass",
+      "reason": "鼻尖、瞳孔与脸部朝观者左侧转动，和 090 方向明确相反。"
+    }
+  ]
+}

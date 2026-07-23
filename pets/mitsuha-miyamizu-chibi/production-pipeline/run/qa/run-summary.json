@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "pet_id": "mitsuha-miyamizu-chibi",
+  "run_dir": "pets/mitsuha-miyamizu-chibi/production-pipeline/run",
+  "spritesheet": "pets/mitsuha-miyamizu-chibi/production-pipeline/run/final/spritesheet-extended.webp",
+  "package": "pets/mitsuha-miyamizu-chibi/ready-to-use",
+  "package_spritesheet_sha256": "946c2452eae41b3a9baf59e042907a8fdd15595b122ed729c519ae6a6fb48c34",
+  "validation": "final/validation-extended.json",
+  "package_validation": "qa/package-validation.json",
+  "chroma_despill": "qa/chroma-despill-extended.json",
+  "contact_sheet": "qa/contact-sheet-extended.png",
+  "direction_sheet": "qa/look-directions.png",
+  "direction_semantics": "qa/direction-semantics.json",
+  "blind_direction_validation": "qa/direction-blind-validation.json",
+  "continuity": "qa/look-continuity.json",
+  "review": "qa/review.json",
+  "final_visual_qa": "qa/final-visual-qa.json",
+  "running_left_mirror_validation": "qa/running-left-mirror-validation.json",
+  "public_preview_validation": "qa/public-preview-validation.json",
+  "standard_rows": 9,
+  "look_directions": 16,
+  "running_left_repair": "Each final left-running frame is the pixel-exact horizontal mirror of the corresponding approved right-running frame, with frame order preserved.",
+  "installation_test": {
+    "ok": true,
+    "method": "repository root install.sh into an isolated temporary CODEX_HOME",
+    "verified_files": ["pet.json", "spritesheet.webp"]
+  }
+}

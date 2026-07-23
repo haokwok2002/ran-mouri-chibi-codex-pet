@@ -1,0 +1,94 @@
+{
+  "ok": true,
+  "errors": [],
+  "current": {
+    "atlas": "spritesheet.webp",
+    "mean_edge_acuity": 117.58,
+    "median_subject_width": 77.5,
+    "median_subject_height": 171.0,
+    "max_subject_width": 99,
+    "max_subject_height": 175,
+    "all_frames_unique_within_state": true,
+    "states": [
+      {
+        "state": "idle",
+        "frames": 7,
+        "unique_frames": 7,
+        "adjacent_mae_min": 0.74,
+        "adjacent_mae_max": 4.92
+      },
+      {
+        "state": "running-right",
+        "frames": 8,
+        "unique_frames": 8,
+        "adjacent_mae_min": 15.53,
+        "adjacent_mae_max": 21.82
+      },
+      {
+        "state": "running-left",
+        "frames": 8,
+        "unique_frames": 8,
+        "adjacent_mae_min": 15.53,
+        "adjacent_mae_max": 21.82
+      },
+      {
+        "state": "waving",
+        "frames": 4,
+        "unique_frames": 4,
+        "adjacent_mae_min": 3.51,
+        "adjacent_mae_max": 4.2
+      },
+      {
+        "state": "jumping",
+        "frames": 5,
+        "unique_frames": 5,
+        "adjacent_mae_min": 19.66,
+        "adjacent_mae_max": 29.01
+      },
+      {
+        "state": "failed",
+        "frames": 8,
+        "unique_frames": 8,
+        "adjacent_mae_min": 2.03,
+        "adjacent_mae_max": 8.9
+      },
+      {
+        "state": "waiting",
+        "frames": 6,
+        "unique_frames": 6,
+        "adjacent_mae_min": 3.32,
+        "adjacent_mae_max": 11.79
+      },
+      {
+        "state": "running",
+        "frames": 6,
+        "unique_frames": 6,
+        "adjacent_mae_min": 4.32,
+        "adjacent_mae_max": 8.57
+      },
+      {
+        "state": "review",
+        "frames": 6,
+        "unique_frames": 6,
+        "adjacent_mae_min": 2.35,
+        "adjacent_mae_max": 9.38
+      },
+      {
+        "state": "look-000-to-157.5",
+        "frames": 8,
+        "unique_frames": 8,
+        "adjacent_mae_min": 7.64,
+        "adjacent_mae_max": 17.2
+      },
+      {
+        "state": "look-180-to-337.5",
+        "frames": 8,
+        "unique_frames": 8,
+        "adjacent_mae_min": 7.33,
+        "adjacent_mae_max": 17.93
+      }
+    ]
+  },
+  "comparison_v1": null,
+  "edge_acuity_gain": null
+}
